@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ціни | IT Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1b3a;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #16172d;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        .contact {
+            background-color: #4e51e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .prices-content {
+            padding: 50px;
+            text-align: center;
+            background-color: white;
+            color: black;
+        }
+        .prices-content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .prices-content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .price-table {
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .price-item {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .price-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .price-item p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+        .price-item .price {
+            font-size: 2em;
+            color: #4e51e8;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #16172d;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IT Solutions</div>
+            <ul>
+                <li><a href="home.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="#">Послуги</a></li>
+                <li><a href="prices.html">Ціни</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+            <button class="contact">Зв'яжіться з нами</button>
+        </nav>
+    </header>
+    <section class="prices-content">
+        <h2>Наші ціни</h2>
+        <p>Ми пропонуємо гнучкі та прозорі ціни для різних видів послуг. Ознайомтесь із нашими тарифами, щоб знайти оптимальне рішення для вашого бізнесу.</p>
+        
+        <div class="price-table">
+            <div class="price-item">
+                <h3>Базовий пакет</h3>
+                <p>Для малого бізнесу</p>
+                <div class="price">5,000 грн</div>
+                <p>Цей пакет включає основні послуги: створення сайту, налаштування SEO та базову підтримку.</p>
+            </div>
+            <div class="price-item">
+                <h3>Стандартний пакет</h3>
+                <p>Для середнього бізнесу</p>
+                <div class="price">10,000 грн</div>
+                <p>У цьому пакеті додатково є інтеграції з CRM-системами, технічна підтримка 24/7 та аналітика.</p>
+            </div>
+            <div class="price-item">
+                <h3>Преміум пакет</h3>
+                <p>Для великих підприємств</p>
+                <div class="price">20,000 грн</div>
+                <p>Уключає всі послуги попередніх пакетів та додаткові функції для автоматизації бізнес-процесів і розробку індивідуальних рішень.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Email: <a href="mailto:contact@website.com" style="color: #4e51e8; text-decoration: none;">contact@website.com</a></p>
+        <p>Телефон: 0927 6277 28525</p>
+        <p>&copy; 2022 IT Solutions | <a href="home.html" style="color: #4e51e8;">Головна</a> | <a href="about.html" style="color: #4e51e8;">Про нас</a> | <a href="prices.html" style="color: #4e51e8;">Ціни</a></p>
+    </footer>
+</body>
+</html>

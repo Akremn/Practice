@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT-компанія</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1b3a;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #16172d;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        .contact {
+            background-color: #4e51e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+        }
+        .btn-yellow {
+            background-color: #ffb400;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .how-we-work {
+            text-align: center;
+            padding: 50px;
+            background-color: white;
+            color: black;
+        }
+        .steps {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .step {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            width: 200px;
+        }
+        .features {
+            text-align: center;
+            padding: 50px;
+            background-color: #f8f8f8;
+            color: black;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .feature-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #16172d;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IT Solutions</div>
+            <ul>
+                <li><a href="#">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="#">Послуги</a></li>
+                <li><a href="prices.html">Ціни</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+            <button class="contact">Зв'яжіться з нами</button>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Інноваційні IT-рішення для вашого бізнесу</h1>
+            <p>Ми створюємо ефективні технологічні рішення, які допомагають вам розвиватися та досягати нових висот.</p>
+            <button class="btn-yellow">Дізнатися більше</button>
+            <a href="prices.html">Переглянути ціни →</a>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.png" alt="Ілюстрація IT-рішень">
+        </div>
+    </section>
+    <section class="how-we-work">
+        <h2>Як ми працюємо</h2>
+        <p>Наш процес роботи складається з кількох важливих етапів.</p>
+        <a href="#">Зв'язатися з нами →</a>
+        <div class="steps">
+            <div class="step"><span>01</span><h3>Аналіз</h3><p>Ми детально аналізуємо ваш бізнес та його потреби.</p></div>
+            <div class="step"><span>02</span><h3>Проєктування</h3><p>Створюємо ефективну стратегію та прототипи.</p></div>
+            <div class="step"><span>03</span><h3>Розробка</h3><p>Реалізовуємо проєкт, використовуючи сучасні технології.</p></div>
+            <div class="step"><span>04</span><h3>Тестування</h3><p>Перевіряємо якість та ефективність роботи продукту.</p></div>
+        </div>
+    </section>
+    <section class="features">
+        <h3>Наші переваги</h3>
+        <h2>Чому обирають саме нас?</h2>
+        <div class="feature-grid">
+            <div class="feature-item"><h3>Сучасні технології</h3><p>Використовуємо лише новітні технологічні рішення.</p></div>
+            <div class="feature-item"><h3>Індивідуальний підхід</h3><p>Розробляємо унікальні рішення для кожного клієнта.</p></div>
+            <div class="feature-item"><h3>Підтримка 24/7</h3><p>Завжди готові допомогти у будь-який момент.</p></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Email: <a href="mailto:contact@website.com" style="color: #4e51e8; text-decoration: none;">contact@website.com</a></p>
+        <p>Телефон: 0927 6277 28525</p>
+        <p>&copy; 2022 IT Solutions | <a href="#" style="color: #4e51e8;">Головна</a> | <a href="about.html" style="color: #4e51e8;">Про нас</a> | <a href="#" style="color: #4e51e8;">Послуги</a></p>
+    </footer>
+</body>
+</html>

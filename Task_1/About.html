@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас | IT Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1b3a;
+            color: white;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #16172d;
+        }
+        .logo {
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 400;
+        }
+        .contact {
+            background-color: #4e51e8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .about-content {
+            padding: 50px;
+            text-align: center;
+            background-color: white;
+            color: black;
+        }
+        .about-content h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .team-section {
+            margin-top: 50px;
+        }
+        .team-section h3 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+        .team-members {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .team-member {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+        }
+        .team-member img {
+            width: 100%;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #16172d;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">IT Solutions</div>
+            <ul>
+                <li><a href="home.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="#">Послуги</a></li>
+                <li><a href="prices.html">Ціни</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+            <button class="contact">Зв'яжіться з нами</button>
+        </nav>
+    </header>
+    <section class="about-content">
+        <h2>Про нашу компанію</h2>
+        <p>IT Solutions — це компанія, яка спеціалізується на розробці інноваційних технологічних рішень для вашого бізнесу. Ми допомагаємо клієнтам вийти на нові ринки, покращити ефективність роботи та вирішити складні завдання.</p>
+        
+        <h3>Наша команда</h3>
+        <p>Наша команда складається з висококваліфікованих спеціалістів, кожен з яких має унікальний досвід і вміння. Разом ми створюємо рішення, які відповідають найвищим стандартам якості та інноваційності.</p>
+        
+        <div class="team-section">
+            <h3>Знайомтесь з нашими лідерами</h3>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="team-member1.jpg" alt="Член команди 1">
+                    <h4>Олександр Іванов</h4>
+                    <p>Генеральний директор</p>
+                    <p>Олександр має понад 10 років досвіду у сфері інформаційних технологій, керуючи проектами та створюючи інноваційні рішення.</p>
+                </div>
+                <div class="team-member">
+                    <img src="team-member2.jpg" alt="Член команди 2">
+                    <h4>Марія Коваль</h4>
+                    <p>Технічний директор</p>
+                    <p>Марія відповідає за технічні аспекти проектів та забезпечує найвищу якість розробки на всіх етапах.</p>
+                </div>
+                <div class="team-member">
+                    <img src="team-member3.jpg" alt="Член команди 3">
+                    <h4>Ігор Петров</h4>
+                    <p>Менеджер з продукту</p>
+                    <p>Ігор керує розробкою продуктів, визначаючи стратегію і напрямки розвитку кожного проекту.</p>
+                </div>
+            </div>
+        </div>
+        
+        <h3>Наші погляди</h3>
+        <p>Ми віримо, що технології повинні служити людині. Наш підхід — це інновації, які орієнтовані на результат і допомагають компаніям досягати нових висот. Ми прагнемо бути не просто постачальниками рішень, а партнерами, що допомагають кожному клієнту досягти успіху.</p>
+    </section>
+    <footer class="footer">
+        <p>Email: <a href="mailto:contact@website.com" style="color: #4e51e8; text-decoration: none;">contact@website.com</a></p>
+        <p>Телефон: 0927 6277 28525</p>
+        <p>&copy; 2022 IT Solutions | <a href="home.html" style="color: #4e51e8;">Головна</a> | <a href="about.html" style="color: #4e51e8;">Про нас</a> | <a href="#" style="color: #4e51e8;">Послуги</a></p>
+    </footer>
+</body>
+</html>
