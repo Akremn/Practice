@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "title": "UX review presentations",
+    "category": "Design",
+    "date": "2025-03-01",
+    "content": "How do you create compelling presentations that impress your colleagues and managers? Learn the best practices."
+  },
+  {
+    "id": 2,
+    "title": "Migrating to Linear 101",
+    "category": "Product",
+    "date": "2025-03-02",
+    "content": "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started."
+  },
+  {
+    "id": 3,
+    "title": "Building your API stack",
+    "category": "Software Engineering",
+    "date": "2025-03-03",
+    "content": "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them."
+  },
+  {
+    "id": 4,
+    "title": "PM mental models",
+    "category": "Product",
+    "date": "2025-03-04",
+    "content": "Mental models are simple expressions of complex processes or relationships."
+  },
+  {
+    "id": 5,
+    "title": "What is wireframing?",
+    "category": "Design",
+    "date": "2025-03-05",
+    "content": "Introduction to wireframing and its principles. Learn the best tools in the industry."
+  },
+  {
+    "id": 6,
+    "title": "How collaboration makes us better designers",
+    "category": "Design",
+    "date": "2025-03-06",
+    "content": "Collaboration can make our teams stronger and our individual designs better."
+  },
+  {
+    "id": 7,
+    "title": "Our top 10 Javascript frameworks to use",
+    "category": "Product",
+    "date": "2025-03-07",
+    "content": "Discover new frameworks for frontend and backend development."
+  },
+  {
+    "id": 8,
+    "title": "Podcast: Creating a better CX Community",
+    "category": "Customer Success",
+    "date": "2025-03-08",
+    "content": "Starting a community is no easy task. Where do you begin and how do you get people to interact?"
+  },
+  {
+    "id": 9,
+    "title": "Як створити ефективний дизайн?",
+    "category": "Design",
+    "date": "2024-03-01",
+    "content": "Дизайн - це не лише краса, а й функціональність. У цій статті ми розглянемо ключові принципи ефективного дизайну."
+  },
+  {
+    "id": 10,
+    "title": "Тренди UI/UX у 2024 році",
+    "category": "Design",
+    "date": "2024-02-20",
+    "content": "Світ UI/UX швидко змінюється. Ми підготували огляд основних трендів, які будуть актуальними цього року."
+  },
+  {
+    "id": 11,
+    "title": "Як покращити продуктивність команди?",
+    "category": "Product",
+    "date": "2024-02-15",
+    "content": "Ефективне управління командою допоможе досягати кращих результатів. Читайте наші поради!"
+  },
+  {
+    "id": 12,
+    "title": "Переваги TypeScript перед JavaScript",
+    "category": "Software Engineering",
+    "date": "2024-02-10",
+    "content": "TypeScript стає все популярнішим. Дізнайтеся, чому розробники обирають його замість JavaScript."
+  },
+  {
+    "id": 13,
+    "title": "Як зробити клієнтів щасливими?",
+    "category": "Customer Success",
+    "date": "2024-01-28",
+    "content": "Клієнтоорієнтованість - це ключ до успіху. Ми поділимося методами покращення клієнтського досвіду."
+  }
+]
