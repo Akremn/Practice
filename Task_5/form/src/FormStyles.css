@@ -1,0 +1,137 @@
+/* Оновлений стиль форми */
+
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(135deg, #eef2ff, #c7d2fe);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.header-area {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.header-area h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+}
+
+.progress-bar {
+    width: 100%;
+    max-width: 600px;
+    background-color: #e0e7ff;
+    height: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6, #2563eb);
+    border-radius: inherit;
+    transition: width 0.3s ease-in-out;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.progress-step {
+    width: 24px;
+    height: 24px;
+    background-color: #e0e7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.progress-step.active {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.progress-line {
+    flex-grow: 1;
+    height: 4px;
+    background-color: #e0e7ff;
+    margin: 0 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.progress-line.active {
+    background-color: #3b82f6;
+}
+
+.form-container {
+    max-width: 600px;
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 1.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.form-container:hover {
+    transform: translateY(-5px);
+}
+
+.line-input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #cbd5e1;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.line-input:focus {
+    border-bottom-color: #3b82f6;
+}
+
+.social-input-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    width: 1.75rem;
+    height: 1.75rem;
+}
+
+.info-line {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 2px solid #cbd5e1;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+}
+
+.checkmark-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
